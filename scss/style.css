@@ -1,9 +1,47 @@
-* {
+.god {
+  background-color: #f8f6f6;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 40px;
   margin: 0;
   padding: 0;
 }
 
-.god {
-  background-color: lightblue;
+a {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+.container-fluid {
+  background: #70b1da;
+  height: 100px;
+}
+
+h1 {
+  padding-top: 3%;
+  font-size: 1.875em;
+  margin: auto;
+}
+
+.card {
+  min-height: 100%;
+}
+
+i {
+  right: 16px;
+  top: 15px;
+}
+
+.shadow {
+  min-height: 110%;
+}
+
+.mikro-header {
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

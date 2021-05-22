@@ -1,12 +1,53 @@
 @import'variables';
+@import'globals';
 
-*{
-    margin:0;
-    padding:0;
-}
- 
-    .god{
-        background-color:lightblue;
+
+.god{
+        background-color:$primary;
     }
 
+    .navbar-brand {
+        
+        img{
+            width:50px;
+            height:40px;
+            margin:0;
+            padding:0;
+        }
+    }
 
+a{
+    color:black;
+
+    &:hover{
+        color:brown;
+    }
+}
+
+.container-fluid{
+    background: $wireframe;
+    height:100px;
+}
+
+
+    h1{
+        padding-top:3%;
+        font-size:$header;
+        margin:auto;
+    }
+    
+    .card{
+        min-height: 100%;  
+         
+        }
+        i{
+        right:16px;   
+        top:15px;
+        }
+        .shadow{
+            min-height:110%;
+        }
+       
+    .mikro-header{
+        margin:auto;
+    }
