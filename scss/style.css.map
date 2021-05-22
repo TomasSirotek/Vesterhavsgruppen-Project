@@ -1,6 +1,10 @@
 {
     "version": 3,
+<<<<<<< HEAD
     "mappings": "AACA,AAAA,CAAC,CAAA;EACG,MAAM,EAAC,CAAC;CACX;;AAGG,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAC,SAAS;CAC7B",
+=======
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACI,gBAAgB,ECHd,OAAO;CDIZ",
+>>>>>>> fc4a8c1c1d98f4c900c8315c71006bd3914dc7aa
     "sources": [
         "style.scss",
         "_variables.scss"
