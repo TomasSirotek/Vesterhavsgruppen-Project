@@ -37,17 +37,62 @@ a{
     }
     
     .card{
-        min-height: 100%;  
-         
+        min-height:80%;  
+        overflow:hidden; 
+    
         }
         i{
         right:16px;   
         top:15px;
         }
         .shadow{
-            min-height:110%;
+            min-height:100%;
         }
+        .card-img-top{
+            opacity: 70%;
+        }
+        
+        
+        
        
     .mikro-header{
         margin:auto;
     }
+
+    .video {
+        margin-top:17%;
+        margin-left:6%;
+    }
+
+    .img-placeholder{
+        margin:16%;
+    }
+
+    .categories{
+        margin-bottom:20%;
+    }
+
+    .helper{
+        justify-content: center;
+    }
+
+    .wrap-info{
+        color:white;
+        width:100%;
+        position:absolute;
+        z-index:2;
+        bottom:75%;
+        padding:20px;
+      }
+    .info{
+        color:black;
+        font-size: 18px;
+        text-transform: uppercase;
+        width:100%;
+        position:absolute;
+        z-index:2;
+        bottom:30%;
+        padding:20px;
+      }
+    
+  
