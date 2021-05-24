@@ -16,22 +16,25 @@
 <body>
     
    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg god static-top">
+   <header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg god fixed-top" id="navigation">
         <div class="container">
-            <a class="navbar-brand col-1" href="#">
-                <img src="/assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> <span class="fas fa-home"></span></a>
+                        <a class="nav-link"> <span class="fas fa-home"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Forside
+                        <a class="nav-link" href="index.html">Forside
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -42,41 +45,36 @@
                             Afdelinger
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/mikro.html">Mikro (5 - 6 years)</a>
-                            <a class="dropdown-item" href="#">Mini (13 - 14 years)</a>
-                            <a class="dropdown-item" href="#">Junior</a>
-                            <a class="dropdown-item" href="#">Trop</a>
-                            <a class="dropdown-item" href="#">Clan</a>
+                            <a class="dropdown-item" href="mikro.html">Micro (5 - 6 years)</a>
+                            <a class="dropdown-item" href="mini.html">Mini (13 - 14 years)</a>
+                            <a class="dropdown-item" href="junior.html">Junior</a>
+                            <a class="dropdown-item" href="trops.html">Trop</a>
+                            <a class="dropdown-item" href="clan.html">Clan</a>
                         </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Praktisk</a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Om Gruppen
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Galleri</a>
-                        </div>
+                        <a class="nav-link" href="praktisk.html">Praktisk</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="BlivSpejder.html">Bliv spejder</a>
+                        <a class="nav-link" href="OmGruppen.html">Om Gruppen</a>
+                    </li>
+
+                    <li class="nav-item" id="color">
+                        <a class="nav-link" href="BlivSpejder.html">Bliv pejder</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</header>
     
 <!-- Top Containter -->
 
     <div class="container-fluid ">
         <div class="mikro-header">
-            <h1>Praktisk</h1>
+         <h1></h1>
         </div>
         
     </div>
@@ -186,22 +184,42 @@
       <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
       <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
     </symbol>
-   
-   
-    
-  
-  
-  
-  
-    
-   
-   
-    <symbol id="geo-fill" viewBox="0 0 16 16">
+   <symbol id="geo-fill" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
     </symbol>
   </svg>
 
-      
+     
+  <footer class="footer font-small text-center god">
+
+    <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <li class="social-item list-inline-item">
+                <a href="#" alt="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+
+            <li class="social-item list-inline-item">
+                <a href="#" alt="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li class="social-item list-inline-item">
+                <a href="#" alt="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+
+        </section>
+        <div id="footer">
+            DDS Vesterhavsgruppen - de blå spejdere i Esbjerg, Bakkevej 14, 6700 Esbjerg
+        </div>
+    </div>
+
+</footer>
+
     
 
 

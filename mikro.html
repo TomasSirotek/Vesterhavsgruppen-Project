@@ -16,22 +16,25 @@
 <body>
     
    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg god static-top">
+   <header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg god fixed-top" id="navigation">
         <div class="container">
-            <a class="navbar-brand col-1" href="#">
-                <img src="/assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> <span class="fas fa-home"></span></a>
+                        <a class="nav-link"> <span class="fas fa-home"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Forside
+                        <a class="nav-link" href="index.html">Forside
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -42,7 +45,7 @@
                             Afdelinger
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Micro (5 - 6 years)</a>
+                            <a class="dropdown-item" href="mikro.html">Micro (5 - 6 years)</a>
                             <a class="dropdown-item" href="mini.html">Mini (13 - 14 years)</a>
                             <a class="dropdown-item" href="junior.html">Junior</a>
                             <a class="dropdown-item" href="trops.html">Trop</a>
@@ -53,25 +56,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="praktisk.html">Praktisk</a>
                     </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Om Gruppen
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Galleri</a>
-                        </div>
-                    </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="BlivSpejder.html">Bliv spejder</a>
+                        <a class="nav-link" href="OmGruppen.html">Om Gruppen</a>
+                    </li>
+
+                    <li class="nav-item" id="color">
+                        <a class="nav-link" href="BlivSpejder.html">Bliv pejder</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+</header>
 <!-- Top Containter -->
 
     <div class="container-fluid ">
@@ -94,7 +91,7 @@
   <!-- Main Section -->
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-8">
+      <div class="col-xs-12 col-sm-6 col-md-7">
         <div class="card">
           <div class=" position-relative">
             <div class="wrap-info">
@@ -107,16 +104,16 @@
           
         </div>
       </div>        <!-- Leader -->
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-6 col-md-5">
         <div class="card shadow">
           <div class=" position-relative text-center" style='margin-top:5%;'>
             <h2>Leder</h2>
            <div class="img-placeholder">
-            <img src='/assets/placeholder.png' class="card-img-top" alt="loading">
+            <img src='/assets/placeholder.png' class="card-img-top try" alt="loading">
            </div>
            <p class='contact-block' >Name : Pernille Ravn </p>
            <p class='contact-block'>Email : mikro@vesterhavsgruppen.dk </p>
-           <h3>Contact</h3>
+           <button type="button" class="btn btn-success">Success</button>
           </div>
           <div class="card-body">
             
@@ -204,9 +201,38 @@
               </div>
             </div>
           </div>
+        </div>
       
     
+          <footer class="footer font-small text-center god">
 
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <li class="social-item list-inline-item">
+                        <a href="#" alt="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+    
+                    <li class="social-item list-inline-item">
+                        <a href="#" alt="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+    
+                    <li class="social-item list-inline-item">
+                        <a href="#" alt="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+    
+                </section>
+                <div id="footer">
+                    DDS Vesterhavsgruppen - de blå spejdere i Esbjerg, Bakkevej 14, 6700 Esbjerg
+                </div>
+            </div>
+    
+        </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

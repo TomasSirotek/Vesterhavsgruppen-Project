@@ -15,23 +15,25 @@
 
 <body>
     
-   <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg god static-top">
+  <header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg god fixed-top" id="navigation">
         <div class="container">
-            <a class="navbar-brand col-1" href="#">
-                <img src="/assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> <span class="fas fa-home"></span></a>
+                        <a class="nav-link"> <span class="fas fa-home"></span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Forside
+                        <a class="nav-link" href="index.html">Forside
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -42,35 +44,30 @@
                             Afdelinger
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Mikro (5 - 6 years)</a>
-                            <a class="dropdown-item" href="#">Mini (13 - 14 years)</a>
-                            <a class="dropdown-item" href="#">Junior</a>
-                            <a class="dropdown-item" href="#">Trop</a>
-                            <a class="dropdown-item" href="#">Clan</a>
+                            <a class="dropdown-item" href="mikro.html">Micro (5 - 6 years)</a>
+                            <a class="dropdown-item" href="mini.html">Mini (13 - 14 years)</a>
+                            <a class="dropdown-item" href="junior.html">Junior</a>
+                            <a class="dropdown-item" href="trops.html">Trop</a>
+                            <a class="dropdown-item" href="clan.html">Clan</a>
                         </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Praktisk</a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Om Gruppen
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Galleri</a>
-                        </div>
+                        <a class="nav-link" href="praktisk.html">Praktisk</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bliv spejder</a>
+                        <a class="nav-link" href="OmGruppen.html">Om Gruppen</a>
+                    </li>
+
+                    <li class="nav-item" id="color">
+                        <a class="nav-link" href="BlivSpejder.html">Bliv pejder</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</header>
     
 <!-- Top Containter -->
 

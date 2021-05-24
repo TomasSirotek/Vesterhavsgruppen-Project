@@ -8,72 +8,187 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="scss/style.css"> 
+    <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+
     <title>Vesterhavsgruppen</title>
 </head>
 
 <body>
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg god fixed-top" id="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
+                </a>
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link"> <span class="fas fa-home"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Forside
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
 
-  
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Afdelinger
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="mikro.html">Micro (5 - 6 years)</a>
+                                <a class="dropdown-item" href="mini.html">Mini (13 - 14 years)</a>
+                                <a class="dropdown-item" href="junior.html">Junior</a>
+                                <a class="dropdown-item" href="trops.html">Trop</a>
+                                <a class="dropdown-item" href="clan.html">Clan</a>
+                            </div>
+                        </li>
 
-   <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg god static-top">
+                        <li class="nav-item">
+                            <a class="nav-link" href="praktisk.html">Praktisk</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="OmGruppen.html">Om Gruppen</a>
+                        </li>
+
+                        <li class="nav-item" id="color">
+                            <a class="nav-link" href="BlivSpejder.html">Bliv pejder</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="textbox">
+            <h1>Vesterhavsgruppen</h1>
+            <p>Welcome to our Vestarhavgruppen website and this text will be in danish, but ich snake ikke dansk I´m
+                sorry.</p>
+            <a href="#connection" class="hero-btn">Scroll down to learn more</a>
+        </div>
+    </section>
+
+    <div id="connection"></div>
+    <section>
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/Screenshot 2021-05-20 at 17.39.57.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"> <span class="fas fa-home"></span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Forside
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+                <div class="col-sm-12 col-md-8 flex-col aktualitet">
+                    <h3 style="font-weight: bold;">Aktuelt</h3>
+                    <p>Velkommen til 2021.
+                        2020 har været et mærkeligt år, hvor vi har måttet ændre planer for rigtig mange af vores
+                        aktiviteter. På nær et par måneder i foråret har vi kunnet holde vores ugentlige
+                        spejdermøder, men det er ikke blevet til ret mange ture og lejre.
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Afdelinger
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/mikro.html">Micro (5 - 6 years)</a>
-                            <a class="dropdown-item" href="#">Mini (13 - 14 years)</a>
-                            <a class="dropdown-item" href="#">Junior</a>
-                            <a class="dropdown-item" href="#">Trop</a>
-                            <a class="dropdown-item" href="#">Clan</a>
-                        </div>
-                    </li>
+                        Vi håber at 2021 bliver bedre, i hvert fald når vi kommer over vintren, hvor vi stadig må
+                        regne med at leve med rimelig skrappe restriktioner.
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Praktisk</a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Om Gruppen
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Galleri</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bliv spejder</a>
-                    </li>
-                </ul>
+                        Da vi stadig er påvirket af Coronavirus vil vi gerne vide, hvor mange der deltager i
+                        møderne, så hvis du gerne vil prøve at være spejder, vil vi gerne have besked inden du
+                        kommer. Du kan enten skrive en mail til adressen overfor eller ringe til vores gruppeleder
+                        på tlf. 40 29 26 71.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 offset-lg-2 flex-col" id="center">
+                    <img class="center-block" src="assets/actuality.jpg" alt="actuality">
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
 
+    <section>
+        <div class="container">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 flex-col" id="center">
+                    
+                    
+
+
+
+
+                </div>
+                <div class="col-sm-12 col-md-6 offset-lg-1 flex-col aktualitet">
+                    <h3 style="font-weight: bold;">Mødetid for Vesterhavsgruppens afdelinger:</h3>
+                    <p>Mikro (0. - 1. klasse): Tirsdag kl. 16:30 - 18:00 <br>
+                        Mini (2. - 3. klasse): Tirsdag kl. 16:30 - 18:00 <br>
+                        Junior (4. - 6. klasse): Tirsdag kl. 19:00 - 20:30 <br>
+                        Trop (7. - 9. klasse): Onsdag kl. 19:30 - 21:00 <br>
+                        Klan (efter 9. klasse): Torsdag kl. 19:00 - 21:00 <br>
+                        <b>(vi mødes på Bakkevej 14, 6700 Esbjerg)</b></p>
+                    <p style="text-align: center;">
+                        Vil du prøve nogle af de ting, vi laver til spejdermøderne? <br>
+
+                        Så kig forbi til et af vores spejdermøder, som passer til dig
+
+                        Alle er velkomne, børn i alle aldre og forældre. </p>
+
+                    <p class="mail"> Kontakt: 
+                        <a href="mailto:kontakt@vesterhavsgruppen.dk">   
+                            <span><b>kontakt@vesterhavsgruppen.dk</b></span>
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row sponzor">
+            <div class="col-sm-12 col-md-6 flex-col obrazok">
+                <img src="assets/ok_logo.png" alt="OK logo" width="100px" height="50px">
+            </div>   
+            <div class="col-sm-12 col-md-6 flex-col popis">
+                <p>Vesterhavsgruppen har en sponsoraftale med OK som indebærer, at OK støtter os økonomiskhver gang nogen bestiller et OK-kort gennem os og hver gang man tanker benzin eller diesel på et kort, der er tilknyttet vores aftale. <br>
+                    Hvis du er interesseret i at støtte os på denne måde, kan du skrive til 
+                    <a href="mailto:inge.thisgaard@mail.dk">   
+                        <span><b>inge.thisgaard@mail.dk</b></span>
+                    </a>
+                    eller tale med en leder til vores spejdermøder.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer font-small text-center god">
+
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <li class="social-item list-inline-item">
+                    <a href="#" alt="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+
+                <li class="social-item list-inline-item">
+                    <a href="#" alt="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li class="social-item list-inline-item">
+                    <a href="#" alt="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+
+            </section>
+            <div id="footer">
+                DDS Vesterhavsgruppen - de blå spejdere i Esbjerg, Bakkevej 14, 6700 Esbjerg
+            </div>
+        </div>
+
+    </footer>
 
 
 
