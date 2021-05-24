@@ -51,15 +51,17 @@ a{
 
 .container-fluid{
     background-image:url("https://images.unsplash.com/photo-1508089101008-504c11e5d606?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-    height:100px;
-    margin-top:3%;
-    opacity: 80%;
+    height:140px;
+    margin-top:15px auto;
+    opacity: 96%;
+    color:white;
+  
     
 }
 
 
     h1{
-        padding-top:3%;
+        padding-top:4%;
         font-size:$header;
 
         margin:auto;
@@ -528,4 +530,100 @@ section #center{
     .sponzor{
         flex-direction: column;
     }
+}
+
+
+// Om gruppen 
+
+
+.om-main{
+  margin-top:3%;
+}
+
+.om-logo{
+  opacity:100%;
+  padding:3%;
+  width:70%;
+}
+.om-logo-2{
+  opacity:100%;
+
+}
+
+
+
+.logo-descr{
+  margin-top:4%;
+}
+.logo-descr-2{
+  margin-top:32%;
+}
+
+// test cards 
+
+
+
+.card3{
+  margin-top:15%;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.226);
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  height: 300px;
+}
+
+
+
+
+
+
+.card3 img{
+
+top: 10px;
+right: 15px;
+max-height: 120px;
+}
+
+.card-1{
+background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.card-2{
+ background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+.card-3{
+ background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+@media(max-width: 990px){
+.card3{
+  margin: 20px;
+}
+} 
+
+// Testik
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
