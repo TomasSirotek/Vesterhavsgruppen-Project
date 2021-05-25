@@ -1,6 +1,8 @@
 .card{
-    min-height:80%;  
+    min-height:85%;  
     overflow:hidden; 
+    margin-top:3%;
+
 
     }
     i{
@@ -8,11 +10,16 @@
     top:15px;
     }
     .shadow{
-        min-height:100%;
+        min-height:85%;
+        margin-left:9%;
+        
+       
     }
     .card-img-top{
-        opacity: 70%;
+        opacity: 95%;
+        height: 370px;
         
+       
     }
     .card-helper{
       width:50%;
@@ -23,12 +30,12 @@
     }
 
     .video {
-        margin-top:17%;
+        margin-top:22%;
         margin-left:6%;
     }
 
     .img-placeholder{
-        margin:4%;
+        margin:5%;
 
 
         
@@ -37,23 +44,35 @@
 
     // Text-over lay on the block 
     .wrap-info{
-        color:white;
         width:100%;
+        height:500px;
         position:absolute;
+        clip-path: polygon(100% 0, 10% 100%, 100% 100%);
         z-index:2;
-        bottom:75%;
-        padding:20px;
+        background-color:white;
+        opacity:94%;
+        text-align:right;
+        
+        
       }
     .info{
         color:black;
-        font-size: 18px;
+        font-size: $articles;
         text-transform: uppercase;
         width:100%;
         position:absolute;
         z-index:2;
-        bottom:30%;
-        padding:20px;
+        bottom:19%;
+        padding:3% ;
+        height:93px;
+        
+        
       }
+      .height{
+        height:90%;
+
+      }
+    
     
 
       .margin-top {

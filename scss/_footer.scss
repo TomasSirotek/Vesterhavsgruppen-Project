@@ -1,10 +1,11 @@
 #footer{
-    color:#066966;;
+    color:#066966;
+    
 }
 
 .aktualitet{
     flex-basis:40%;
-    background: #066966a6;
+    background: $secondary;
     border-radius: 10px;
     margin-bottom:5%;
     padding: 20px 12px;
@@ -12,32 +13,20 @@
     text-align:justify;
 }
 
-h3{
-    text-align:center;
-    font-weight: 600;
-    margin:10px 0;
-    transition:0.5s;
-}
-
-
-
-
-
-
 .footer {
-    font-size: 0.8rem; 
+    font-size:$articles; 
 }
 .footer {
     padding: 1rem; }
     .footer a i:link {
       color: #f0f0f0; }
     .footer a i:hover {
-      color: #669966 }
+      color: $hover }
     
     .footer .social-item i {
       font-size: 1.5rem;
       padding: 0 2rem;
-      color: #066966; }
+      color: $secondary; }
 
       //+ banner ok 
 
@@ -74,7 +63,7 @@ h3{
     }
     
     .sponzor .popis a{
-        color: #066966;
+        color: $secondary;
         text-decoration: underline;
     }
     

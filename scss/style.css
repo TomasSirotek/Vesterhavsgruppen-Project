@@ -17,8 +17,8 @@
 }
 
 .navbar-brand img {
-  width: 50px;
-  height: 40px;
+  width: 48px;
+  height: 38px;
   margin: 0;
   padding: 0;
 }
@@ -40,8 +40,9 @@ a:hover {
 }
 
 .card {
-  min-height: 80%;
+  min-height: 85%;
   overflow: hidden;
+  margin-top: 3%;
 }
 
 i {
@@ -50,11 +51,13 @@ i {
 }
 
 .shadow {
-  min-height: 100%;
+  min-height: 85%;
+  margin-left: 9%;
 }
 
 .card-img-top {
-  opacity: 70%;
+  opacity: 95%;
+  height: 370px;
 }
 
 .card-helper {
@@ -66,32 +69,40 @@ i {
 }
 
 .video {
-  margin-top: 17%;
+  margin-top: 22%;
   margin-left: 6%;
 }
 
 .img-placeholder {
-  margin: 4%;
+  margin: 5%;
 }
 
 .wrap-info {
-  color: white;
   width: 100%;
+  height: 500px;
   position: absolute;
+  -webkit-clip-path: polygon(100% 0, 10% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 10% 100%, 100% 100%);
   z-index: 2;
-  bottom: 75%;
-  padding: 20px;
+  background-color: white;
+  opacity: 94%;
+  text-align: right;
 }
 
 .info {
   color: black;
-  font-size: 18px;
+  font-size: 0.875em;
   text-transform: uppercase;
   width: 100%;
   position: absolute;
   z-index: 2;
-  bottom: 30%;
-  padding: 20px;
+  bottom: 19%;
+  padding: 3%;
+  height: 93px;
+}
+
+.height {
+  height: 90%;
 }
 
 .margin-top {
@@ -227,16 +238,8 @@ i {
   text-align: justify;
 }
 
-h3 {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
 .footer {
-  font-size: 0.8rem;
+  font-size: 0.875em;
 }
 
 .footer {
@@ -254,7 +257,7 @@ h3 {
 .footer .social-item i {
   font-size: 1.5rem;
   padding: 0 2rem;
-  color: #066966;
+  color: #066966a6;
 }
 
 section #center {
@@ -291,7 +294,7 @@ section #center {
 }
 
 .sponzor .popis a {
-  color: #066966;
+  color: #066966a6;
   text-decoration: underline;
 }
 
@@ -355,12 +358,13 @@ section #center {
 .card3 {
   margin-top: 15%;
   border-radius: 4px;
-  background: rgba(197, 6, 6, 0.226);
+  background: #70b1da;
   -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
           box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   padding: 14px 80px 18px 36px;
   height: 300px;
+  opacity: 70%;
 }
 
 .card3 img {
@@ -376,13 +380,12 @@ section #center {
   background-size: 80px;
 }
 
-.card-2 {
-  background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
-}
-
+/*  .card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+  } */
 .card-3 {
   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
   background-repeat: no-repeat;
@@ -398,9 +401,9 @@ section #center {
 
 .container-fluid {
   background-image: url("https://images.unsplash.com/photo-1464808322410-1a934aab61e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  height: 140px;
-  margin-top: 15px auto;
-  opacity: 96%;
+  height: 110px;
+  padding-top: 1.7%;
+  opacity: 80%;
   width: 100%;
   color: white;
 }
@@ -412,6 +415,19 @@ h1 {
   margin: auto;
 }
 
+h2 {
+  font-size: 1.625em;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p, a, li {
+  font-size: 0.875em;
+}
+
 .helper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -420,10 +436,6 @@ h1 {
 
 .card {
   border: none;
-}
-
-.card-img {
-  border-radius: 0;
 }
 
 .vgr-cards .card {
@@ -504,7 +516,16 @@ h1 {
   }
 }
 
-.b-example-divider {
+#b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+#b-example-divider2 {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
@@ -584,7 +605,7 @@ h1 {
   margin-top: 3%;
 }
 
-.om-logo {
+.om-main .om-logo {
   opacity: 100%;
   padding: 3%;
   width: 70%;
@@ -615,5 +636,21 @@ h1 {
 .thumb {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.text-below {
+  margin-top: 3%;
+}
+
+.position-relative {
+  margin-bottom: 7%;
+}
+
+.breadcrumb {
+  padding-left: 6%;
+}
+
+.btn {
+  background-color: #70b1da;
 }
 /*# sourceMappingURL=style.css.map */

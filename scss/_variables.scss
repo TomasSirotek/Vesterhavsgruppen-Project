@@ -2,18 +2,19 @@
 // ==========================================================================
 
 $primary: hsl(0, 12%, 97%);
-$secondary: hsl(0, 12%, 97%);
-$third: hsl(0, 12%, 97%);
-$forth: hsl(0, 12%, 97%);
+$secondary: #066966a6;
+$third: #9c6d35;
+$forth: #3888BA;
 $btn-color: hsl(0, 12%, 97%);
-$hover: hsl(0, 12%, 97%);
+$hover: #669966;
 $wireframe:#70b1da;
 
 // 1. Font Sizes
 // ==========================================================================
 
 
-$header: 1.75em;
-$subheader: 1.625em;
-$articles: 0.875em;
+$header: 1.75em; // 28px
+$subheader: 1.625em; // 26px 
+$articles: 0.875em; // 14px
+$others: 1.25em; // 18px
 
