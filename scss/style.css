@@ -8,12 +8,22 @@
 }
 
 #navigation a {
-  color: #066966;
-  font-weight: bold;
+  color: black;
+  font-weight: 400;
 }
 
-#navigation:hover {
-  color: #669966;
+#navigation a:hover:not(.icon) {
+  color: #066966a6;
+}
+
+.sign {
+  color: black;
+  font-weight: bold;
+  border: 2px solid #066966a6;
+}
+
+.sign:hover {
+  background-color: #669966;
 }
 
 .navbar-brand img {
@@ -89,7 +99,7 @@ i {
   -webkit-clip-path: polygon(100% 0, 20% 100%, 100% 100%);
           clip-path: polygon(100% 0, 20% 100%, 100% 100%);
   z-index: 2;
-  background-color: #70b1da;
+  background-color: white;
   opacity: 80%;
   text-align: right;
 }
@@ -120,7 +130,12 @@ i {
   -webkit-clip-path: polygon(100% 0, 0% 0%, 0% 100%);
           clip-path: polygon(100% 0, 0% 0%, 0% 100%);
   height: 110px;
-  background-color: #70b1da;
+  background-color: white;
+}
+
+.redirect:hover {
+  opacity: 100%;
+  background-color: blue;
 }
 
 .block6 {
@@ -234,10 +249,6 @@ i {
 
 .text-shadow-3 {
   text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
-}
-
-#footer {
-  color: #066966;
 }
 
 .aktualitet {
@@ -714,15 +725,7 @@ p, a, li {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
-  border-width: 1px 0;
-  -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
-}
-
-#b-example-divider2 {
-  height: 3rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  border: solid rgba(0, 0, 0, 0.15);
+  margin-top: 2%;
   border-width: 1px 0;
   -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
@@ -853,5 +856,10 @@ p, a, li {
   width: 300px;
   bottom: 33%;
   right: -34%;
+}
+
+.picture {
+  height: 340px;
+  opacity: 100%;
 }
 /*# sourceMappingURL=style.css.map */
