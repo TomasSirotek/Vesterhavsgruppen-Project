@@ -653,4 +653,11 @@ p, a, li {
 .btn {
   background-color: #70b1da;
 }
+
+.test {
+  position: absolute;
+  width: 300px;
+  bottom: 33%;
+  right: -34%;
+}
 /*# sourceMappingURL=style.css.map */
