@@ -12,6 +12,7 @@
 @import'board';
 @import'footer';
 @import'goalsCard';
+@import'fire';
 
 
 
@@ -36,10 +37,12 @@ h1{
         padding-top:4%;
         font-size:$header;
         margin:auto;
+        font-weight: 600;
     }
 
     h2{
        font-size:$subheader;
+       
        margin: auto;
     }
     
@@ -49,6 +52,7 @@ h1{
 
 p,a,li{
   font-size:$articles;
+  text-align:justify;
 }
 .helper{
         justify-content: center;
@@ -276,3 +280,9 @@ p,a,li{
 }
 
 
+
+
+
+  
+
+ 
