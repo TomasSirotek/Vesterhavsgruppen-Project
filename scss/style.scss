@@ -14,6 +14,8 @@
 @import'goalsCard';
 @import'fire';
 @import'downloads';
+@import'buttons';
+@import'dividers';
 
 
 
@@ -270,7 +272,7 @@ p,a,li{
 }
 
 
-.test{
+.bush{
   position: absolute;
   width: 300px;
   bottom: 33%;
@@ -286,7 +288,7 @@ p,a,li{
 .downloads{
   display:flex;
   margin-top: 8%;
-  padding-right: 39%;
+  padding-left: 19%;
 }
 
 
@@ -385,13 +387,19 @@ p,a,li{
 
 .separate {
     margin-bottom: 7%;
-    background: $secondary;
-    border-radius: 3%;
-    padding: 4%;
-
+    .boxos{
+      box-shadow: 0 .5rem 1rem rgba(.15,.25,.24,.20)!important;
+    }
 }
 
 
-  
+.boardos{
+  box-shadow: 0 .5rem 1rem rgba(.15,.25,.24,.20)!important;
+  margin-top:3%;
+}
 
- 
+.divide {
+  border-top: 3px solid gainsboro;
+  padding-top:3%;
+}
+
