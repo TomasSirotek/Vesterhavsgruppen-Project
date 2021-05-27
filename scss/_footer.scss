@@ -1,10 +1,7 @@
 
 
 .aktualitet{
-    flex-basis:40%;
-    background: $secondary;
-    border-radius: 10px;
-    margin-bottom:5%;
+    margin-bottom:20%;
     padding: 20px 12px;
     box-sizing: border-box;
     text-align:justify;
@@ -79,9 +76,7 @@
     // media @
 
     @media(max-width:700px){
-        .row{
-            flex-direction: column;
-        }
+        
         .aktualitet{
             margin-left: 4%;
             width: 92%;
