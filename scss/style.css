@@ -390,7 +390,7 @@ section #center {
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   padding: 14px 80px 18px 36px;
   height: 300px;
-  opacity: 70%;
+  opacity: 100%;
 }
 
 .card3 img {
@@ -429,8 +429,6 @@ section #center {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   opacity: 1;
   z-index: 1;
   -webkit-transition: all 1200ms linear;
@@ -1073,7 +1071,7 @@ p, a, li {
 }
 
 .blog-card {
-  padding: 30px;
+  padding: 20px;
   position: relative;
 }
 
