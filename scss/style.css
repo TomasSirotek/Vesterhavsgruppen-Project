@@ -653,6 +653,275 @@ button div {
   text-align: center;
 }
 
+.btn-2 {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/* Override UGG site */
+#main {
+  width: 100%;
+  padding: 0;
+}
+
+.content-asset p {
+  margin: 0 auto;
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+  padding-top: 10px;
+}
+
+.margin-bot-10 {
+  padding-bottom: 10px;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#parallax-world-of-ugg h2 {
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: .9;
+}
+
+#parallax-world-of-ugg h3 {
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#parallax-world-of-ugg p {
+  font-weight: 400;
+}
+
+.first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+  background: white;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+  background: white;
+  padding: 60px;
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#parallax-world-of-ugg .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+
+#parallax-world-of-ugg .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.70;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 250px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1127.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1127.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url("/assets/0IMG_1136.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
+
+.band {
+  max-width: 1145px;
+  margin: 0 auto;
+  margin-bottom: 7%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+@media (min-width: 30em) {
+  .band {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 60em) {
+  .band {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 350px;
+  position: relative;
+  top: 0;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.card:hover {
+  top: -2px;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card article {
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card span {
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 2em 0 0 0;
+}
+
+.card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 60em) {
+  .item-1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+  }
+  .item-1 h1 {
+    font-size: 24px;
+  }
+}
+
 .container-fluid {
   background-image: url("https://images.unsplash.com/photo-1464808322410-1a934aab61e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   height: 110px;
@@ -1184,283 +1453,36 @@ p, a, li {
   margin-top: 71%;
 }
 
-/* Override UGG site */
-#main {
+#gradient {
+  background: #999955;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #DAB046), color-stop(20%, #D73B25), color-stop(40%, #D73B25), color-stop(40%, #C71B25), color-stop(60%, #C71B25), color-stop(60%, #961A39), color-stop(80%, #961A39), color-stop(80%, #601035));
+  background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
   width: 100%;
-  padding: 0;
+  height: 150px;
 }
 
-.content-asset p {
-  margin: 0 auto;
-}
-
-/* Helpers */
-/**************************/
-.margin-top-10 {
-  padding-top: 10px;
-}
-
-.margin-bot-10 {
-  padding-bottom: 10px;
-}
-
-/* Typography */
-/**************************/
-#parallax-world-of-ugg h1 {
-  font-weight: 400;
-  text-transform: uppercase;
-  color: black;
-  padding: 0;
-  margin: 0;
-}
-
-#parallax-world-of-ugg h2 {
-  letter-spacing: 10px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  text-transform: uppercase;
-  z-index: 10;
-  opacity: .9;
-}
-
-#parallax-world-of-ugg h3 {
-  font-size: 14px;
-  line-height: 0;
-  font-weight: 400;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  color: black;
-}
-
-#parallax-world-of-ugg p {
-  font-weight: 400;
-}
-
-.first-character {
-  font-weight: 400;
-  float: left;
-  font-size: 84px;
-  line-height: 64px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-/* Section - Title */
-/**************************/
-#parallax-world-of-ugg .title {
-  background: white;
-  padding: 60px;
-  margin: 0 auto;
+.new {
   text-align: center;
 }
 
-/* Section - Block */
-/**************************/
-#parallax-world-of-ugg .block {
-  background: white;
-  padding: 60px;
-  width: 820px;
-  margin: 0 auto;
-  text-align: justify;
+.events {
+  margin-top: -3%;
+  text-align: center;
+  padding-bottom: 4%;
+  margin: 2%;
 }
 
-#parallax-world-of-ugg .block-gray {
-  background: #f2f2f2;
-  padding: 60px;
+.events .events-hot {
+  margin: 3%;
 }
 
-#parallax-world-of-ugg .section-overlay-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.70;
+.events p {
+  text-align: center;
+  line-height: 30px;
 }
 
-/* Section - Parallax */
-/**************************/
-#parallax-world-of-ugg .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1127.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1127.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-#parallax-world-of-ugg .parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url("/assets/0IMG_1136.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-#parallax-world-of-ugg .parallax-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-/* Extras */
-/**************************/
-#parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid black;
-  width: 150px;
-  margin: 0 auto;
-}
-
-/* Media Queries */
-/**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax-world-of-ugg .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #parallax-world-of-ugg .block {
-    padding: 30px;
-    width: 420px;
-  }
-  #parallax-world-of-ugg .block {
-    padding: 30px;
-  }
-  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  #parallax-world-of-ugg .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
-}
-
-.band {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 20%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  grid-gap: 20px;
-}
-
-@media (min-width: 30em) {
-  .band {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 60em) {
-  .band {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.card {
-  background: white;
-  text-decoration: none;
-  color: #444;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 450px;
-  position: relative;
-  top: 0;
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
-}
-
-.card:hover {
-  top: -2px;
-  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
-
-.card article {
-  padding: 20px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.card span {
-  font-weight: bold;
-  color: #999;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  margin: 2em 0 0 0;
-}
-
-.card .thumb {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-}
-
-@media (min-width: 60em) {
-  .item-1 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / span 2;
-  }
-  .item-1 h1 {
-    font-size: 24px;
-  }
+.ok-logos {
+  padding-left: 35%;
+  padding-top: 5%;
 }
 /*# sourceMappingURL=style.css.map */
