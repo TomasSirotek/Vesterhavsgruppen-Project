@@ -115,3 +115,6 @@ $(document).ready(function(){
 
 });
 
+$('h2').on("touchstart",function (){
+  //simply starts listening for touchstart - allows for hover state on touch devices
+});

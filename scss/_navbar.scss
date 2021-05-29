@@ -3,6 +3,11 @@
 }
 
 
+.nav-link{
+    border:none;
+}
+
+
 
 
 
@@ -12,13 +17,17 @@
     font-weight: 400;
     &:hover:not(.icon){
       color:$secondary;
+      
     
+ }
+ &:not(.navbar-brand){
+     border:none;
  }
 
 
 }
 
-.sign{
+#color{
     color:black;
     font-weight: bold;
     border:2px solid $secondary;

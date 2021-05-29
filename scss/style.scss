@@ -501,9 +501,8 @@ p,a,li{
 
 
 #gradient {
-  background: #999955;
-  background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
-  
+  background: $forth;
+  background-image: linear-gradient($forth 20%, $hover 30%, $secondary 80%, $forth 20%, $forth 20%, $forth 60%);
   width: 100%;
   height: 150px;
 }
@@ -537,7 +536,7 @@ p,a,li{
 
 
 .calendar-top{
-  margin-top:26%;
+  margin-top:36%;
 }
 
 
@@ -555,7 +554,7 @@ p,a,li{
 }
 
 #calendar a {
-	color: #8e352e;
+	color: $forth;
 	text-decoration: none;
 }
 
@@ -582,7 +581,7 @@ p,a,li{
 
 #calendar ul.weekdays {
 	height: 40px;
-	background: #8e352e;
+	background: $forth;
 }
 
 #calendar ul.weekdays li {
@@ -607,7 +606,7 @@ p,a,li{
 	text-align: center;
 	margin-bottom: 5px;
 	padding: 0.5px;
-	background: #333;
+	background: rgb(70, 69, 69);
 	color: #fff;
 	width: 20px;
 	border-radius: 50%;
@@ -623,16 +622,19 @@ p,a,li{
 	margin-top: 40px;
 	margin-bottom: 5px;
 	line-height: 14px;
+  font-weight: bold;
 	background: #e4f2f2;
 	border: 1px solid #b5dbdc;
-	color: #009aaf;
+	color: $secondary;
+  
 	text-decoration: none;
 }
 
 #calendar .event-desc {
 	color: #666;
 	margin: 3px 0 7px 0;
-	text-decoration: none;	
+	text-decoration: none;
+  margin-top:5%;	
 }
 
 #calendar .other-month {
@@ -831,4 +833,43 @@ p,a,li{
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+}
+
+
+//Transition
+
+@mixin transition($transition){
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin textShadow($text-shadow) {
+  -webkit-text-shadow: $text-shadow;
+  -moz-text-shadow: $text-shadow;
+  -ms-text-shadow: $text-shadow;
+  -o-text-shadow: $text-shadow;
+  text-shadow: $text-shadow;
+}
+
+@mixin boxShadow($box-shadow) {
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+  -ms-box-shadow: $box-shadow;
+  -o-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
+
+
+#flood-right {
+  @include transition(.25s ease-in-out);
+  @include boxShadow(inset 0px 0 0 0 $third);
+  color:rgba(0,0,0,.1);
+  overflow:hidden;
+  &:hover {
+    color:white;
+    @include boxShadow(inset 500px 0 0 0 $third );
+  }
 }
