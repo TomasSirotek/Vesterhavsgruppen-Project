@@ -15,25 +15,39 @@
     
     color:black;
     font-weight: 400;
-    &:hover:not(.icon){
+    &:hover:not(.sign){
       color:$secondary;
-      
-    
- }
- &:not(.navbar-brand){
-     border:none;
- }
+    }
+
+   
+ 
 
 
 }
+.sign{
+    &:hover{
+        background-color:$secondary;
+        border-radius: 27px;
+    }
+
+
+   
+      
+      
+}
+
+
 
 #color{
     color:black;
     font-weight: bold;
     border:2px solid $secondary;
+    border-radius:26px;
+
 
     &:hover{
-        background-color:$hover;
+       color:black;
+    
     }
     
 }
@@ -51,13 +65,7 @@
     }
 }
 
-a{
-color:black;
 
-&:hover{
-    color:brown;
-}
-}
 
 .custom-toggler.navbar-toggler {
     border-color: #066966;
@@ -66,4 +74,16 @@ color:black;
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+@media(max-width: 768px) {
+
+    #color{
+        padding-left:40%;
+    }
+    .nav-color{
+       padding-bottom:3%;
+    
+    }
 }

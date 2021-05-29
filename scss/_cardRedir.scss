@@ -16,7 +16,7 @@
     margin-top: -4px;
     margin-right: -4px;
     color: white;
-    font-family: courier, sans;
+
   }
   
   .card4 {
@@ -44,7 +44,7 @@
       z-index: -1;
       top: -16px;
       right: -16px;
-      background: #00838d;
+      background: $secondary;
       height: 32px;
       width: 32px;
       border-radius: 32px;
@@ -75,17 +75,17 @@
   }
   
   .card22{
-    background-image: url(/assets/0IMG_1098.jpg);
+    background-image: url(/assets/IMG_7642.jpg);
     opacity: 70%;
   }
   .card23{
-    background-image: url(/assets/0IMG_1136.jpg);
+    background-image: url(/assets/IMG_7678.jpg);
     opacity: 70%;
   
   }
   
   .cardoso{
-    margin-top:6%;
+    margin-top:28%;
     min-height:200px;
     
   }

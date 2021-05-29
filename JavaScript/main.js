@@ -118,3 +118,10 @@ $(document).ready(function(){
 $('h2').on("touchstart",function (){
   //simply starts listening for touchstart - allows for hover state on touch devices
 });
+
+$(function() {
+    $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      return false;
+    });
+  });

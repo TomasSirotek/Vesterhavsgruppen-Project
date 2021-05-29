@@ -3,12 +3,12 @@
 }
 
 #calendar-wrap h1{
-  font-weight: 400;
+  font-weight: 800;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: $secondary;
     padding: 0;
     margin: 0;
-    margin-bottom: 3%;
+
 }
 
 #calendar a {
@@ -138,6 +138,7 @@
     }
   #calendar-wrap h1{
     text-align:center;
+	
   }
   .band{
     padding:2%;

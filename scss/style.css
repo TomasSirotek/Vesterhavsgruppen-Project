@@ -16,22 +16,24 @@
   font-weight: 400;
 }
 
-#navigation a:hover:not(.icon) {
+#navigation a:hover:not(.sign) {
   color: #066966a6;
 }
 
-#navigation a:not(.navbar-brand) {
-  border: none;
+.sign:hover {
+  background-color: #066966a6;
+  border-radius: 27px;
 }
 
 #color {
   color: black;
   font-weight: bold;
   border: 2px solid #066966a6;
+  border-radius: 26px;
 }
 
 #color:hover {
-  background-color: #669966;
+  color: black;
 }
 
 .navbar-brand {
@@ -45,20 +47,21 @@
   padding: 0;
 }
 
-a {
-  color: black;
-}
-
-a:hover {
-  color: brown;
-}
-
 .custom-toggler.navbar-toggler {
   border-color: #066966;
 }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  #color {
+    padding-left: 40%;
+  }
+  .nav-color {
+    padding-bottom: 3%;
+  }
 }
 
 .card {
@@ -275,7 +278,7 @@ i {
 .footer .social-item i {
   font-size: 1.5rem;
   padding: 0 2rem;
-  color: #9c6d35;
+  color: #066966a6;
 }
 
 section #center {
@@ -643,10 +646,6 @@ section.container {
   text-align: center;
 }
 
-a:hover {
-  border-bottom: 1px solid #111;
-}
-
 button:hover {
   cursor: pointer;
 }
@@ -743,15 +742,15 @@ button div {
 /* Typography */
 /**************************/
 #parallax-world-of-ugg h1 {
-  font-weight: 400;
+  font-weight: 800;
   text-transform: uppercase;
-  color: black;
+  color: #066966a6;
   padding: 0;
   margin: 0;
 }
 
 #parallax-world-of-ugg h2 {
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   text-align: center;
   color: white;
   font-weight: 400;
@@ -853,12 +852,6 @@ button div {
 
 /* Extras */
 /**************************/
-#parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid black;
-  width: 150px;
-  margin: 0 auto;
-}
-
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
@@ -968,17 +961,17 @@ button div {
 }
 
 .card .thumb {
-  padding-bottom: 60%;
+  padding-bottom: 42%;
   background-size: cover;
   background-position: center center;
-  height: 230px;
+  height: 259px;
 }
 
 @media (min-width: 60em) {
   .item-1 {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / span 2;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
   }
   .item-1 h1 {
     font-size: 24px;
@@ -990,12 +983,11 @@ button div {
 }
 
 #calendar-wrap h1 {
-  font-weight: 400;
+  font-weight: 800;
   text-transform: uppercase;
-  color: black;
+  color: #066966a6;
   padding: 0;
   margin: 0;
-  margin-bottom: 3%;
 }
 
 #calendar a {
@@ -1150,7 +1142,6 @@ button div {
   margin-top: -4px;
   margin-right: -4px;
   color: white;
-  font-family: courier, sans;
 }
 
 .card4 {
@@ -1178,7 +1169,7 @@ button div {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #00838d;
+  background: #066966a6;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -1215,17 +1206,17 @@ button div {
 }
 
 .card22 {
-  background-image: url(/assets/0IMG_1098.jpg);
+  background-image: url(/assets/IMG_7642.jpg);
   opacity: 70%;
 }
 
 .card23 {
-  background-image: url(/assets/0IMG_1136.jpg);
+  background-image: url(/assets/IMG_7678.jpg);
   opacity: 70%;
 }
 
 .cardoso {
-  margin-top: 6%;
+  margin-top: 28%;
   min-height: 200px;
 }
 
@@ -1338,6 +1329,18 @@ button div {
   }
 }
 
+:root {
+  text-decoration: none;
+}
+
+:root:hover {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+}
+
 .container-fluid {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1109.jpg");
   background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1109.jpg");
@@ -1360,11 +1363,15 @@ h1 {
   padding-top: 4%;
   font-size: 1.75em;
   margin: auto;
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #066966a6;
 }
 
 h2 {
   font-size: 1.625em;
+  color: black;
   margin: auto;
 }
 
@@ -1375,6 +1382,66 @@ h3 {
 p, a, li {
   font-size: 0.875em;
   text-align: justify;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bigger-header {
+  font-size: 40px;
+  font-weight: 800;
+  -webkit-animation: animate 3s;
+          animation: animate 3s;
+}
+
+.bla {
+  -webkit-animation: blu 7s;
+          animation: blu 7s;
+  color: #3888BA;
+  font-weight: 600;
+}
+
+.random {
+  border-bottom: 3px solid #066966a6;
+}
+
+@-webkit-keyframes blu {
+  from {
+    color: white;
+  }
+  to {
+    color: #3888BA;
+  }
+}
+
+@keyframes blu {
+  from {
+    color: white;
+  }
+  to {
+    color: #3888BA;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    font-size: 100%;
+    opacity: 1;
+  }
+  50% {
+    font-size: 200%;
+    opacity: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    font-size: 100%;
+    opacity: 1;
+  }
+  50% {
+    font-size: 200%;
+    opacity: 0;
+  }
 }
 
 .helper {
@@ -1633,9 +1700,7 @@ p, a, li {
 }
 
 #gradient {
-  background: #3888BA;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #3888BA), color-stop(30%, #669966), color-stop(80%, #066966a6), color-stop(20%, #3888BA), color-stop(20%, #3888BA), color-stop(60%, #3888BA));
-  background-image: linear-gradient(#3888BA 20%, #669966 30%, #066966a6 80%, #3888BA 20%, #3888BA 20%, #3888BA 60%);
+  background: #066966a6;
   width: 100%;
   height: 150px;
 }
@@ -1670,7 +1735,7 @@ p, a, li {
 }
 
 .min-height {
-  min-height: 388px;
+  min-height: 328px;
 }
 
 .ujko {
@@ -1680,6 +1745,7 @@ p, a, li {
 
 .try {
   text-decoration: none;
+  margin-right: -35%;
 }
 
 .leder {
@@ -1716,24 +1782,112 @@ p, a, li {
 #flood-right {
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  -webkit-box-shadow: inset 0px 0 0 0 #9c6d35;
-  -ms-box-shadow: inset 0px 0 0 0 #9c6d35;
-  -o-box-shadow: inset 0px 0 0 0 #9c6d35;
-  box-shadow: inset 0px 0 0 0 #9c6d35;
-  color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0px 0 0 0 #3888BA;
+  -ms-box-shadow: inset 0px 0 0 0 #3888BA;
+  -o-box-shadow: inset 0px 0 0 0 #3888BA;
+  box-shadow: inset 0px 0 0 0 #3888BA;
+  color: black;
   overflow: hidden;
 }
 
 #flood-right:hover {
-  color: white;
-  -webkit-box-shadow: inset 500px 0 0 0 #9c6d35;
-  -ms-box-shadow: inset 500px 0 0 0 #9c6d35;
-  -o-box-shadow: inset 500px 0 0 0 #9c6d35;
-  box-shadow: inset 500px 0 0 0 #9c6d35;
+  -webkit-box-shadow: inset 500px 0 0 0 #3888ba83;
+  -ms-box-shadow: inset 500px 0 0 0 #3888ba83;
+  -o-box-shadow: inset 500px 0 0 0 #3888ba83;
+  box-shadow: inset 500px 0 0 0 #3888ba83;
 }
 
-a:hover {
-  color: #066966a6;
-  border: none;
+section {
+  width: 100%;
+  display: table;
+}
+
+section.ok {
+  background-color: #555;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: relative;
+  bottom: -150%;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-down {
+    bottom: -100%;
+  }
+  .parallax-one h2 {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

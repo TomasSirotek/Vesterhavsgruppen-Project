@@ -9,6 +9,7 @@ $btn-color: hsl(0, 12%, 97%);
 $hover: #669966;
 $wireframe:#70b1da;
 
+
 // 1. Font Sizes
 // ==========================================================================
 
@@ -18,3 +19,5 @@ $subheader: 1.625em; // 26px
 $articles: 0.875em; // 14px
 $others: 1.25em; // 18px
 
+
+$gradient:linear-gradient($secondary 10%, $forth 40%, $secondary 80%, $forth 40%, $forth 50%, $secondary 60%);
