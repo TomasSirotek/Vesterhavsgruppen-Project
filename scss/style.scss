@@ -554,5 +554,28 @@ position: relative;
   .parallax-one h2 {
     font-size: 20px;
 }
+
+  .kill{
+    padding-left: 10%;
+    font-size: 1.3em;
+  }
+  
+  .kill2{
+    margin-top:6%;
+  }
   
 }
+
+.bt:not(:disabled):not(.disabled).active {
+ 
+  background:$secondary;
+
+  &:hover{
+    background:$secondary;
+  }
+}
+
+.bt{
+  margin-top:1%;
+}
+

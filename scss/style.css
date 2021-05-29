@@ -1244,8 +1244,15 @@ button div {
 .ujo img {
   position: absolute;
   max-height: 233px;
-  top: 43%;
-  right: -8%;
+  top: 39%;
+  right: -9%;
+}
+
+.ujo2 img {
+  position: absolute;
+  max-height: 233px;
+  top: 44%;
+  right: -9%;
 }
 
 .card {
@@ -1889,5 +1896,24 @@ section.ok {
   .parallax-one h2 {
     font-size: 20px;
   }
+  .kill {
+    padding-left: 10%;
+    font-size: 1.3em;
+  }
+  .kill2 {
+    margin-top: 6%;
+  }
+}
+
+.bt:not(:disabled):not(.disabled).active {
+  background: #066966a6;
+}
+
+.bt:not(:disabled):not(.disabled).active:hover {
+  background: #066966a6;
+}
+
+.bt {
+  margin-top: 1%;
 }
 /*# sourceMappingURL=style.css.map */
