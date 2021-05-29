@@ -5,13 +5,17 @@
 
 
 
+
 #navigation a{
+    
     color:black;
     font-weight: 400;
     &:hover:not(.icon){
       color:$secondary;
     
  }
+
+
 }
 
 .sign{
@@ -22,15 +26,17 @@
     &:hover{
         background-color:$hover;
     }
+    
 }
 
 
 
 .navbar-brand {
-    
+    text-decoration: none;
+
     img{
-        width:48px;
-        height:38px;
+        width: 53px;
+        height: 48px;
         margin:0;
         padding:0;
     }

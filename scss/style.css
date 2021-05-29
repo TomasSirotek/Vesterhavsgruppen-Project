@@ -26,9 +26,13 @@
   background-color: #669966;
 }
 
+.navbar-brand {
+  text-decoration: none;
+}
+
 .navbar-brand img {
-  width: 48px;
-  height: 38px;
+  width: 53px;
+  height: 48px;
   margin: 0;
   padding: 0;
 }
@@ -78,8 +82,8 @@ i {
 }
 
 .video {
-  margin-top: 22%;
-  margin-left: 6%;
+  margin-top: 10%;
+  margin-right: 5%;
 }
 
 .img-placeholder {
@@ -256,7 +260,7 @@ i {
 
 .footer {
   font-size: 0.875em;
-  background: #70b1da;
+  background: #f8f6f6;
   margin-top: 4%;
 }
 
@@ -376,32 +380,6 @@ section #center {
   padding: 14px 80px 18px 36px;
   height: 300px;
   opacity: 100%;
-}
-
-.card3 img {
-  top: 10px;
-  right: 15px;
-  max-height: 120px;
-}
-
-.card-1 {
-  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
-}
-
-/*  .card-2{
-   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
-  } */
-.card-3 {
-  background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
 }
 
 @media (max-width: 990px) {
@@ -649,6 +627,13 @@ button div {
   margin-left: 3%;
 }
 
+@media (max-width: 576px) {
+  .btn-1 {
+    margin-left: 0;
+    margin-top: 3%;
+  }
+}
+
 .button-and-all {
   text-align: center;
 }
@@ -867,7 +852,7 @@ button div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 350px;
+  min-height: 542px;
   position: relative;
   top: 0;
   -webkit-transition: all .1s ease-in;
@@ -909,6 +894,7 @@ button div {
   padding-bottom: 60%;
   background-size: cover;
   background-position: center center;
+  height: 230px;
 }
 
 @media (min-width: 60em) {
@@ -923,12 +909,20 @@ button div {
 }
 
 .container-fluid {
-  background-image: url("https://images.unsplash.com/photo-1464808322410-1a934aab61e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  height: 110px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1109.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1109.jpg");
+  background-size: cover;
+  height: 400px;
   padding-top: 1.7%;
-  opacity: 80%;
   width: 100%;
   color: white;
+  padding-top: 200px;
+  padding-bottom: 230px;
+  width: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 h1, h2, h3, h4, h5
@@ -973,7 +967,6 @@ p, a, li {
       -ms-flex: 100%;
           flex: 100%;
   margin-bottom: 40px;
-  height: 300px;
 }
 
 .vgr-cards .card:nth-child(even) .card-img-body {
@@ -1004,7 +997,7 @@ p, a, li {
 @media (max-width: 576px) {
   .vgr-cards .card-img-body {
     width: 100%;
-    height: 200px;
+    height: 500px;
     margin-bottom: 20px;
   }
 }
@@ -1055,67 +1048,6 @@ p, a, li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-.intro {
-  min-height: 70vh;
-  width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1127.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1127.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.textbox {
-  width: 60%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.textbox a {
-  margin-top: 1rem;
-}
-
-.textbox h1 {
-  margin-top: 15rem;
-  font-size: 62px;
-}
-
-.textbox p {
-  margin: 2rem;
-  font-size: 14px;
-  color: white;
-}
-
-.hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
-
-.hero-btn:hover {
-  border: 1px solid #336666;
-  background: #336666;
-  -webkit-transition: 1s;
-  transition: 1s;
-  color: white;
-}
-
-.aktualitet:hover, .center-block:hover {
-  -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.76);
-          box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.76);
 }
 
 .om-main {
@@ -1189,6 +1121,12 @@ p, a, li {
   display: flex;
   margin-top: 8%;
   padding-left: 19%;
+}
+
+@media (max-width: 576px) {
+  .downloads {
+    margin-left: -17%;
+  }
 }
 
 .test {
@@ -1289,6 +1227,7 @@ p, a, li {
 .separate .boxos {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+  padding: 3%;
 }
 
 .boardos {
@@ -1484,5 +1423,295 @@ p, a, li {
 .ok-logos {
   padding-left: 35%;
   padding-top: 5%;
+}
+
+.calendar-top {
+  margin-top: 26%;
+}
+
+#calendar {
+  width: 100%;
+}
+
+#calendar-wrap h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+#calendar a {
+  color: #8e352e;
+  text-decoration: none;
+}
+
+#calendar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+#calendar li {
+  display: block;
+  float: left;
+  width: 14.350%;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+  height: 40px;
+  background: #8e352e;
+}
+
+#calendar ul.weekdays li {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none !important;
+  padding: 10px 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+#calendar .days li {
+  height: 140px;
+}
+
+#calendar .days li:hover {
+  background: #d3d3d3;
+}
+
+#calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 0.5px;
+  background: #333;
+  color: #fff;
+  width: 20px;
+  border-radius: 50%;
+  float: right;
+}
+
+#calendar .event {
+  clear: both;
+  display: block;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  line-height: 14px;
+  background: #e4f2f2;
+  border: 1px solid #b5dbdc;
+  color: #009aaf;
+  text-decoration: none;
+}
+
+#calendar .event-desc {
+  color: #666;
+  margin: 3px 0 7px 0;
+  text-decoration: none;
+}
+
+#calendar .other-month {
+  background: #f5f5f5;
+  color: #666;
+}
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+@media (max-width: 768px) {
+  #calendar .weekdays, #calendar .other-month {
+    display: none;
+  }
+  #calendar li {
+    height: auto !important;
+    border: 1px solid #ededed;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -1px;
+  }
+  #calendar .date {
+    float: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .calendar-top {
+    margin-top: 270%;
+  }
+  .camp {
+    width: 308px;
+    height: 450px;
+  }
+  #calendar-wrap h1 {
+    text-align: center;
+  }
+  .band {
+    padding: 2%;
+  }
+  .parallax-one h2 {
+    font-size: 0.875em;
+  }
+  .uniformos {
+    padding: 10%;
+  }
+}
+
+.min-height {
+  min-height: 450px;
+}
+
+.go-corner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #00838d;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card4 {
+  display: block;
+  position: relative;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 32px 24px;
+  background-size: cover;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card4 p {
+  margin-bottom: 3%;
+}
+
+.card4:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #00838d;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.card4:hover:before {
+  -webkit-transform: scale(21);
+          transform: scale(21);
+}
+
+.card4:hover p {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card4:hover h3 {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #ffffff;
+}
+
+.card21 {
+  background-image: url(/assets/IMG_1110.jpg);
+  opacity: 70%;
+}
+
+.card22 {
+  background-image: url(/assets/0IMG_1098.jpg);
+  opacity: 70%;
+}
+
+.card23 {
+  background-image: url(/assets/0IMG_1136.jpg);
+  opacity: 70%;
+}
+
+.cardoso {
+  margin-top: 6%;
+  min-height: 200px;
+}
+
+.ujko {
+  width: 100%;
+  opacity: 100%;
+}
+
+.try {
+  text-decoration: none;
+}
+
+.leder {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+  padding: 2px;
+}
+
+.leder .imagination {
+  padding-left: 37%;
+  padding-top: 5%;
+}
+
+.nwm {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/0IMG_1103.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/0IMG_1103.jpg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 1.7%;
+  width: 100%;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 230px;
+  width: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 /*# sourceMappingURL=style.css.map */
