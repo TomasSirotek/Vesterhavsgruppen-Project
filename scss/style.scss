@@ -86,7 +86,14 @@ p,a,li{
   font-size:$articles;
   text-align:justify;
   text-decoration: none;
-  cursor: pointer;
+  border:none;
+  
+}
+a {text-decoration: none;color:black;cursor: default;}
+a:hover {text-decoration: none;color:black;cursor: pointer;
+:not(.cursor){
+  cursor:default;
+}
 }
 
 .bigger-header{
@@ -209,7 +216,8 @@ p,a,li{
   margin-bottom:7%;
 }
 
-.breadcrumb{
+.breadcrumb { 
+  background:$primary;
   padding-left:6%;
 }
 
@@ -495,7 +503,7 @@ section.ok{
 
 .scroll-down {
 position: relative;
-  bottom: -150%;
+  margin-top:15%;
   left: 50%;
   margin-left: -16px;
   display: block;
@@ -563,12 +571,31 @@ position: relative;
   .kill2{
     margin-top:6%;
   }
+
+  .try{
+    margin-right:-3%;
+  }
+
+  iframe{
+    max-width: 100%;
+    max-height: 66%;
+  }
+
+  .mobile-size{
+    font-size:$mobile-size;
+  }
+  .info-leder{
+    margin-left: -18%;
+  }
+  .footer{
+    margin-top:-30%;
+  }
   
 }
 
+// additionals features
+
 .bt:not(:disabled):not(.disabled).active {
- 
-  background:$secondary;
 
   &:hover{
     background:$secondary;
@@ -579,3 +606,46 @@ position: relative;
   margin-top:1%;
 }
 
+.kill2{
+  margin-top:5%;
+}
+
+.kill{
+  margin-bottom:5%;
+}
+.margin-top2{
+  margin-top:2%;
+}
+
+.special{
+  color:$forth;
+}
+
+
+
+.cursoros{
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.something{
+  margin-top:8%;
+}
+
+.huge-logo{
+    position: absolute;
+    bottom: 4%;
+    left: 34%;
+}
+
+.på{
+  padding-left:50%;
+}
+
+.linkos{
+  
+  border-radius: 3px;
+  
+}

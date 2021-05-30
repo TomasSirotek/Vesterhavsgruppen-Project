@@ -36,6 +36,10 @@
     
     p{
       margin-bottom: 3%;
+      font-weight: 700;
+    }
+    h3{
+      color:white;
     }
   
     &:before {
@@ -62,6 +66,7 @@
     p {
       transition: all 0.3s ease-out;
       color: rgba(255, 255, 255, 0.8);
+      font-weight: 700;
     }
     h3 {
       transition: all 0.3s ease-out;
@@ -71,16 +76,16 @@
   
   .card21{
     background-image: url(/assets/IMG_1110.jpg);
-    opacity:70%;
+    opacity:80%;
   }
   
   .card22{
-    background-image: url(/assets/IMG_7642.jpg);
-    opacity: 70%;
+    background-image: url(/assets/IMG_7678.jpg);
+    opacity: 80%;
   }
   .card23{
-    background-image: url(/assets/IMG_7678.jpg);
-    opacity: 70%;
+    background-image: url(/assets/0IMG_1114.jpg);
+    opacity: 80%;
   
   }
   

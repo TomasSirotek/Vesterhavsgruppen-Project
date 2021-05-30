@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 * {
   font-family: 'Open Sans', sans-serif;
@@ -93,7 +94,7 @@ i {
 }
 
 .video {
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: 5%;
 }
 
@@ -255,6 +256,10 @@ i {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: justify;
+}
+
+#footer p {
+  text-align: center;
 }
 
 .footer {
@@ -458,10 +463,11 @@ section #center {
 }
 
 .circle {
+  background: #066966a6;
   position: absolute;
   z-index: 6;
   right: -300px;
-  bottom: -450px;
+  bottom: 50px;
   width: 750px;
   height: 700px;
   border-radius: 100%;
@@ -1161,6 +1167,11 @@ button div {
 
 .card4 p {
   margin-bottom: 3%;
+  font-weight: 700;
+}
+
+.card4 h3 {
+  color: white;
 }
 
 .card4:before {
@@ -1192,6 +1203,7 @@ button div {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
 }
 
 .card4:hover h3 {
@@ -1202,17 +1214,17 @@ button div {
 
 .card21 {
   background-image: url(/assets/IMG_1110.jpg);
-  opacity: 70%;
+  opacity: 80%;
 }
 
 .card22 {
-  background-image: url(/assets/IMG_7642.jpg);
-  opacity: 70%;
+  background-image: url(/assets/IMG_7678.jpg);
+  opacity: 80%;
 }
 
 .card23 {
-  background-image: url(/assets/IMG_7678.jpg);
-  opacity: 70%;
+  background-image: url(/assets/0IMG_1114.jpg);
+  opacity: 80%;
 }
 
 .cardoso {
@@ -1243,9 +1255,9 @@ button div {
 
 .ujo img {
   position: absolute;
-  max-height: 233px;
-  top: 39%;
-  right: -9%;
+  max-height: 280px;
+  top: 31%;
+  right: -19%;
 }
 
 .ujo2 img {
@@ -1390,7 +1402,23 @@ p, a, li {
   font-size: 0.875em;
   text-align: justify;
   text-decoration: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
   cursor: pointer;
+}
+
+a:hover :not(.cursor) {
+  cursor: default;
 }
 
 .bigger-header {
@@ -1519,6 +1547,7 @@ p, a, li {
 }
 
 .breadcrumb {
+  background: #f8f6f6;
   padding-left: 6%;
 }
 
@@ -1821,7 +1850,7 @@ section.ok {
 
 .scroll-down {
   position: relative;
-  bottom: -150%;
+  margin-top: 15%;
   left: 50%;
   margin-left: -16px;
   display: block;
@@ -1903,10 +1932,22 @@ section.ok {
   .kill2 {
     margin-top: 6%;
   }
-}
-
-.bt:not(:disabled):not(.disabled).active {
-  background: #066966a6;
+  .try {
+    margin-right: -3%;
+  }
+  iframe {
+    max-width: 100%;
+    max-height: 66%;
+  }
+  .mobile-size {
+    font-size: 1.6em;
+  }
+  .info-leder {
+    margin-left: -18%;
+  }
+  .footer {
+    margin-top: -30%;
+  }
 }
 
 .bt:not(:disabled):not(.disabled).active:hover {
@@ -1915,5 +1956,47 @@ section.ok {
 
 .bt {
   margin-top: 1%;
+}
+
+.kill2 {
+  margin-top: 5%;
+}
+
+.kill {
+  margin-bottom: 5%;
+}
+
+.margin-top2 {
+  margin-top: 2%;
+}
+
+.special {
+  color: #3888BA;
+}
+
+.cursoros {
+  cursor: pointer;
+}
+
+.cursoros:hover {
+  text-decoration: underline;
+}
+
+.something {
+  margin-top: 8%;
+}
+
+.huge-logo {
+  position: absolute;
+  bottom: 4%;
+  left: 34%;
+}
+
+.på {
+  padding-left: 50%;
+}
+
+.linkos {
+  border-radius: 3px;
 }
 /*# sourceMappingURL=style.css.map */
