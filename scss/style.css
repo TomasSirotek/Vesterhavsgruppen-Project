@@ -1311,7 +1311,7 @@ button div {
 @media (max-width: 576px) {
   .vgr-cards .card-img-body {
     width: 100%;
-    height: 500px;
+    height: 227px;
     margin-bottom: 20px;
   }
 }
@@ -1714,21 +1714,12 @@ a:hover :not(.cursor) {
   color: #f8f6f6;
 }
 
-.images {
-  text-align: center;
-  margin-top: 15%;
-}
-
 .img-bliv img {
-  width: 90px;
-  margin-top: 7%;
-  height: 80px;
+  margin-top: 18%;
 }
 
 .img-bliv-2 img {
   margin-top: 30%;
-  width: 90px;
-  height: 80px;
 }
 
 .soci {
@@ -1946,57 +1937,99 @@ section.ok {
     margin-left: -18%;
   }
   .footer {
-    margin-top: -30%;
+    margin-top: 5%;
+  }
+  .huge-logo {
+    margin-bottom: 100%;
+    margin-left: -100%;
+    padding: 10%;
+  }
+  .mr-3 {
+    font-size: 0.875em;
+  }
+  .container-fluid {
+    width: 103%;
+  }
+  .block-card {
+    width: 110%;
+  }
+  .newesr {
+    width: 124%;
+  }
+  #circle {
+    margin-top: 37%;
+  }
+  .ujo img {
+    right: -17%;
+  }
+  .på {
+    margin-bottom: 3%;
+  }
+  .block6 {
+    height: 1000px;
+  }
+  .block7 {
+    height: 750px;
+  }
+  .img-bliv-2 {
+    margin-top: -23%;
+  }
+  .calendar-top {
+    margin-top: 215%;
+  }
+  .bt:not(:disabled):not(.disabled).active:hover {
+    background: #066966a6;
+  }
+  .bt {
+    margin-top: 1%;
+  }
+  .kill2 {
+    margin-top: 5%;
+  }
+  .kill {
+    margin-bottom: 5%;
+  }
+  .margin-top2 {
+    margin-top: 2%;
+  }
+  .special {
+    color: #3888BA;
+  }
+  .cursoros {
+    cursor: pointer;
+  }
+  .cursoros:hover {
+    text-decoration: underline;
+  }
+  .something {
+    margin-top: 8%;
+  }
+  .på {
+    padding-left: 50%;
+  }
+  .linkos {
+    margin-top: 20%;
+    margin: 4%;
+    padding: 3%;
+    border-radius: 3px;
+    background: #3888BA;
+    opacity: 80%;
+    font-weight: 600;
+  }
+  .linkos .thumbnail {
+    color: white;
+  }
+  .linkos .thumbnail:hover {
+    color: black;
+  }
+  .email-only {
+    color: #3888BA;
   }
 }
 
-.bt:not(:disabled):not(.disabled).active:hover {
-  background: #066966a6;
-}
-
-.bt {
-  margin-top: 1%;
-}
-
-.kill2 {
-  margin-top: 5%;
-}
-
-.kill {
-  margin-bottom: 5%;
-}
-
-.margin-top2 {
-  margin-top: 2%;
-}
-
-.special {
-  color: #3888BA;
-}
-
-.cursoros {
-  cursor: pointer;
-}
-
-.cursoros:hover {
-  text-decoration: underline;
-}
-
-.something {
-  margin-top: 8%;
-}
-
-.huge-logo {
+.huge-logo2 {
   position: absolute;
-  bottom: 4%;
-  left: 34%;
-}
-
-.på {
-  padding-left: 50%;
-}
-
-.linkos {
-  border-radius: 3px;
+  bottom: 15%;
+  left: 40%;
 }
 /*# sourceMappingURL=style.css.map */

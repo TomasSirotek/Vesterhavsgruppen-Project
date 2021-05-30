@@ -353,17 +353,14 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
   }
 }
 
-.images{
-  text-align:center;
-  margin-top:15%;
-}
+
 .img-bliv{
   
   
   img{
-    width:90px;
-    margin-top:7%;
-    height:80px;
+  
+    margin-top:18%;
+ 
   }
   
 }
@@ -372,8 +369,6 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
   
   img{
   margin-top:30%;
-  width:90px;
-  height:80px;
 
   }
 }
@@ -588,9 +583,48 @@ position: relative;
     margin-left: -18%;
   }
   .footer{
-    margin-top:-30%;
+    margin-top:5%;
   }
-  
+
+  .huge-logo{
+
+    margin-bottom:100%;
+    margin-left:-100%;
+    padding: 10%;
+  }
+  .mr-3{
+    font-size: $articles;
+  }
+  .container-fluid{
+    width:103%;
+  }
+  .block-card{
+    width:110%;
+  }
+  .newesr{
+    width:124%;
+  }
+
+  #circle{
+    margin-top: 37%;
+  }
+  .ujo img{
+    right: -17%;
+  }
+  .på{
+    margin-bottom: 3%;
+  }
+  .block6{
+    height:1000px;
+  }
+  .block7{
+    height:750px;
+  }
+  .img-bliv-2{
+    margin-top: -23%;
+  }
+  .calendar-top {
+    margin-top: 215%;
 }
 
 // additionals features
@@ -634,18 +668,41 @@ position: relative;
   margin-top:8%;
 }
 
-.huge-logo{
-    position: absolute;
-    bottom: 4%;
-    left: 34%;
-}
+
 
 .på{
   padding-left:50%;
 }
 
 .linkos{
-  
+  margin-top:20%;
+  margin: 4%;
+  padding:3%;
   border-radius: 3px;
+  background:$forth;
+  opacity:80%;
+  font-weight: 600;
+
   
+  .thumbnail{
+    color:white;
+    &:hover{
+      color:black;
+    }
+  }
+
+
+  
+}
+
+.email-only{
+  color:$forth;
+}
+
+}
+
+.huge-logo2{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
 }
