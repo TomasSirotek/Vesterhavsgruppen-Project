@@ -258,8 +258,10 @@ i {
   text-align: justify;
 }
 
-#footer p {
+#footer p, #tel-added p {
   text-align: center;
+  margin-top: 2%;
+  margin-bottom: -3%;
 }
 
 .footer {
@@ -910,8 +912,8 @@ button div {
 
 @media (min-width: 60em) {
   .band {
-    -ms-grid-columns: (1fr);  /* [4]*/
-            grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -1348,18 +1350,6 @@ button div {
   }
 }
 
-:root {
-  text-decoration: none;
-}
-
-:root:hover {
-  text-decoration: none;
-}
-
-body {
-  text-decoration: none;
-}
-
 .container-fluid {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1109.jpg");
   background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1109.jpg");
@@ -1375,6 +1365,10 @@ body {
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+* {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5
@@ -1407,7 +1401,6 @@ p, a, li {
 
 a {
   text-decoration: none;
-  color: black;
   cursor: default;
 }
 

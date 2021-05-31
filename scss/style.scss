@@ -25,15 +25,7 @@
 @import'vgaCards';
 
 
-:root{
-  text-decoration:none;
-  &:hover{
-    text-decoration:none;
-  }
-}
-body{
-  text-decoration:none;
-}
+
 
 
 .container-fluid{
@@ -57,6 +49,10 @@ body{
 // 1. Typography
 // ==========================================================================
 
+
+*{
+  text-decoration:none;
+}
 h1, h2, h3, h4, h5
 
 
@@ -89,7 +85,7 @@ p,a,li{
   border:none;
   
 }
-a {text-decoration: none;color:black;cursor: default;}
+a {text-decoration: none;cursor: default;}
 a:hover {text-decoration: none;color:black;cursor: pointer;
 :not(.cursor){
   cursor:default;
