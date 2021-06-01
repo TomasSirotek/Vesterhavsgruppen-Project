@@ -826,7 +826,7 @@ button div {
   opacity: 0.70;
 }
 
-/* Section - Parallax */
+/* Section - Parallax  + images */
 /**************************/
 #parallax-world-of-ugg .parallax-one {
   padding-top: 200px;
@@ -834,8 +834,8 @@ button div {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1127.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1127.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/land20.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/land20.png");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -859,8 +859,6 @@ button div {
   background-position: center center;
 }
 
-/* Extras */
-/**************************/
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
@@ -913,7 +911,7 @@ button div {
 
 @media (min-width: 60em) {
   .band {
-    -ms-grid-columns: (1fr); 
+    -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -1039,7 +1037,7 @@ button div {
   line-height: 20px;
   border: none !important;
   padding: 10px 6px;
-  color: #fff;
+  color: black;
   font-size: 13px;
 }
 
@@ -1220,17 +1218,17 @@ button div {
 }
 
 .card21 {
-  background-image: url(/assets/IMG_1110.jpg);
+  background-image: url(/assets/redir-1.png);
   opacity: 80%;
 }
 
 .card22 {
-  background-image: url(/assets/IMG_7678.jpg);
+  background-image: url(/assets/redir-3.png);
   opacity: 80%;
 }
 
 .card23 {
-  background-image: url(/assets/0IMG_1114.jpg);
+  background-image: url(/assets/redir-2.png);
   opacity: 80%;
 }
 
@@ -1356,8 +1354,8 @@ button div {
 }
 
 .container-fluid {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/0IMG_1109.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/0IMG_1109.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/top-banner.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/top-banner.png");
   background-size: cover;
   height: 400px;
   padding-top: 1.7%;
@@ -1784,9 +1782,9 @@ a:hover :not(.cursor) {
   padding-top: 5%;
 }
 
-.nwm {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/0IMG_1103.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/0IMG_1103.jpg");
+.different {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/mikro_header15.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/mikro_header15.png");
   background-size: cover;
   height: 200px;
   padding-top: 1.7%;
@@ -1990,12 +1988,6 @@ section.ok {
   }
   .special {
     color: #3888BA;
-  }
-  .cursoros {
-    cursor: pointer;
-  }
-  .cursoros:hover {
-    text-decoration: underline;
   }
   .something {
     margin-top: 8%;
