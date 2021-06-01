@@ -119,6 +119,11 @@ span {
   }
 }
 
+
+.main-title{
+  border-bottom:3px solid $secondary;
+}
+
 .item-1 {
   @media (min-width: 60em) {
     grid-column: 1 / span 3;

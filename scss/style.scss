@@ -105,9 +105,6 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
   font-weight: 600;
 }
 
-.random{
-  border-bottom:3px solid $secondary;
-}
 
 @keyframes blu {
 
@@ -435,9 +432,10 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
 .leder{
   background: white;
   text-decoration: none;
+  margin-top:10%;
   color: #444;
   box-shadow: 0 .5rem 1rem rgba(.15,.25,.24,.20)!important;
-  padding:2px;
+  padding:10px;
   .imagination{
     padding-left: 37%;
     padding-top: 5%;
@@ -556,9 +554,9 @@ position: relative;
 
   .kill{
     padding-left: 10%;
-    font-size: 1.3em;
+    margin-bottom:3%;
+    font-size: $otherHeader;
   }
-  
   .kill2{
     margin-top:6%;
   }
@@ -701,4 +699,49 @@ position: relative;
   position: absolute;
   bottom: 15%;
   left: 40%;
+}
+
+
+// Font and other ovewrites 
+
+.cald-btn{
+  text-align:center;
+  margin-bottom: 3%;
+  
+}
+
+.top-7{
+  margin-top:7%;
+}
+
+.top-3{
+  margin-top:3%;
+ 
+}
+.top-5{
+  margin-top:5%;
+}
+.top-1{
+  margin-top:1%;
+}
+.gnr-pad{
+  padding:3%;
+}
+.gnr-marg{
+  margin:10%;
+}
+.mrg-bot-3{
+  margin-bottom:3%;
+}
+.hh{
+  font-size:$others;
+}
+.ul-size{
+  font-size:$articles;
+}
+
+.laes{
+  font-weight:bold;
+  margin-top:13%;
+  margin-right:3%;
 }

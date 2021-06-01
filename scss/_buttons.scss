@@ -14,12 +14,14 @@ section.container{
       border: 2px solid $secondary;
       padding: 15px 50px;
       overflow: hidden;
+      
     }
   
     /*button:before (attr data-hover)*/
     button:hover:before{opacity: 1; transform: translate(0,0);}
     button:before{
       content: attr(data-hover);
+      cursor: pointer;
       position: absolute;
       top: 1.1em; left: 0;
       width: 100%;

@@ -676,6 +676,7 @@ button:hover:before {
 
 button:before {
   content: attr(data-hover);
+  cursor: pointer;
   position: absolute;
   top: 1.1em;
   left: 0;
@@ -973,6 +974,10 @@ button div {
   background-size: cover;
   background-position: center center;
   height: 259px;
+}
+
+.main-title {
+  border-bottom: 3px solid #066966a6;
 }
 
 @media (min-width: 60em) {
@@ -1428,10 +1433,6 @@ a:hover :not(.cursor) {
   font-weight: 600;
 }
 
-.random {
-  border-bottom: 3px solid #066966a6;
-}
-
 @-webkit-keyframes blu {
   from {
     color: white;
@@ -1771,10 +1772,11 @@ a:hover :not(.cursor) {
 .leder {
   background: white;
   text-decoration: none;
+  margin-top: 10%;
   color: #444;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
-  padding: 2px;
+  padding: 10px;
 }
 
 .leder .imagination {
@@ -1911,7 +1913,8 @@ section.ok {
   }
   .kill {
     padding-left: 10%;
-    font-size: 1.3em;
+    margin-bottom: 3%;
+    font-size: 1.3125em;
   }
   .kill2 {
     margin-top: 6%;
@@ -2024,5 +2027,52 @@ section.ok {
   position: absolute;
   bottom: 15%;
   left: 40%;
+}
+
+.cald-btn {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.top-7 {
+  margin-top: 7%;
+}
+
+.top-3 {
+  margin-top: 3%;
+}
+
+.top-5 {
+  margin-top: 5%;
+}
+
+.top-1 {
+  margin-top: 1%;
+}
+
+.gnr-pad {
+  padding: 3%;
+}
+
+.gnr-marg {
+  margin: 10%;
+}
+
+.mrg-bot-3 {
+  margin-bottom: 3%;
+}
+
+.hh {
+  font-size: 1.25em;
+}
+
+.ul-size {
+  font-size: 0.875em;
+}
+
+.laes {
+  font-weight: bold;
+  margin-top: 13%;
+  margin-right: 3%;
 }
 /*# sourceMappingURL=style.css.map */
