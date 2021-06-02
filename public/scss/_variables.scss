@@ -1,0 +1,27 @@
+// 1. Colors
+// ==========================================================================
+
+$primary: hsl(0, 12%, 97%);
+$secondary: #066966a6;
+$third: #9c6d35;
+$forth: #3888BA;
+$btn-color: hsl(0, 12%, 97%);
+$hover: #669966;
+$wireframe:#70b1da;
+
+
+$mobile-size:1.6em;
+
+// 1. Font Sizes
+// ==========================================================================
+
+
+$header: 1.75em; // 28px
+$subheader: 1.625em; // 26px 
+$articles: 0.875em; // 14px
+$others: 1.25em; // 18px
+$otherHeader: 1.3125em; // 21px
+
+
+
+$gradient:linear-gradient($secondary 10%, $forth 40%, $secondary 80%, $forth 40%, $forth 50%, $secondary 60%);
