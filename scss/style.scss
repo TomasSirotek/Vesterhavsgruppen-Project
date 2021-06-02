@@ -469,9 +469,7 @@ position: relative;
 
 @media(max-width: 768px) {
 
-
-
-  .scroll-down{
+.scroll-down{
     bottom:-100%;
   }
 
@@ -513,11 +511,7 @@ position: relative;
     margin-left:-100%;
     padding: 10%;
   }
-  .huge-logo2{
-    position: absolute;
-    bottom: 15%;
-    left: -61%;
-  }
+
   .mr-3{
     font-size: $articles;
   }
@@ -527,9 +521,7 @@ position: relative;
   .block-card{
     width:110%;
   }
-  .newesr{
-    width:124%;
-  }
+ 
 
   #circle{
     margin-top: 37%;
@@ -715,4 +707,15 @@ position: relative;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+}
+
+@media(max-width: 768px) {
+
+.huge-logo2{
+  bottom: 124%;
+    left: -71%;
+}
+.mobile-header{
+  font-size:23px;
+}
 }

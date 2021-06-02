@@ -1899,11 +1899,6 @@ section.ok {
     margin-left: -100%;
     padding: 10%;
   }
-  .huge-logo2 {
-    position: absolute;
-    bottom: 15%;
-    left: -61%;
-  }
   .mr-3 {
     font-size: 0.875em;
   }
@@ -1912,9 +1907,6 @@ section.ok {
   }
   .block-card {
     width: 110%;
-  }
-  .newesr {
-    width: 124%;
   }
   #circle {
     margin-top: 37%;
@@ -2084,5 +2076,15 @@ section.ok {
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+@media (max-width: 768px) {
+  .huge-logo2 {
+    bottom: 124%;
+    left: -71%;
+  }
+  .mobile-header {
+    font-size: 23px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
