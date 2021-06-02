@@ -25,9 +25,9 @@
     background-color: #f2f8f9;
     border-radius: 4px;
     margin:10px;
+    color:black;
     padding: 32px 24px;
     background-size: cover;
-    color:white;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -37,9 +37,12 @@
     p{
       margin-bottom: 3%;
       font-weight: 700;
+      display:none;
+
+     
     }
     h3{
-      color:white;
+      color:$secondary;
     }
   
     &:before {
@@ -55,6 +58,7 @@
       transform: scale(1);
       transform-origin: 50% 50%;
       transition: transform 0.25s ease-out;
+
     }
   
     &:hover:before {
@@ -75,7 +79,7 @@
   }
   
   .card21{
-    background-image: url(/assets/redir-1.png);
+    background-image: url(/assets/trop.jpg);
     opacity:80%;
   }
   
@@ -84,7 +88,7 @@
     opacity: 80%;
   }
   .card23{
-    background-image: url(/assets/redir-2.png);
+    background-image: url(/assets/junior.jpg);
     opacity: 80%;
    }
   

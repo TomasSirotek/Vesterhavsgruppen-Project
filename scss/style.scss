@@ -226,8 +226,19 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
 }
 
 .picture{
-  height:340px;
-  opacity:100%;
+  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/mikro_header15.png');
+    background-size:cover;
+    height:200px;
+    padding-top:1.7%;
+    width:100%;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    width: 100% ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 
@@ -357,7 +368,7 @@ a:hover {text-decoration: none;color:black;cursor: pointer;
 }
 .different{
  
-  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/mikro_header15.png');
+  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/top-banner.png');
     background-size:cover;
     height:200px;
     padding-top:1.7%;
@@ -673,4 +684,35 @@ position: relative;
   border-radius: 0.25rem;
   height: auto;
   max-width: 100%;
+}
+.group{
+ 
+  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/land20.jpg');
+    background-size:cover;
+    height:200px;
+    padding-top:1.7%;
+    width:100%;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    width: 100% ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.bye{
+  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/land20.png');
+    background-size:cover;
+    height:200px;
+    padding-top:1.7%;
+    width:100%;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    width: 100% ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
