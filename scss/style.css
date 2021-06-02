@@ -172,48 +172,6 @@ i {
   fill: currentColor;
 }
 
-.feature-icon {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 4rem;
-  height: 4rem;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  color: white;
-  border-radius: .75rem;
-}
-
-.icon-link {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.icon-link > .bi {
-  margin-top: .125rem;
-  margin-left: .125rem;
-  -webkit-transition: -webkit-transform .25s ease-in-out;
-  transition: -webkit-transform .25s ease-in-out;
-  transition: transform .25s ease-in-out;
-  transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
-  fill: currentColor;
-}
-
-.icon-link:hover > .bi {
-  -webkit-transform: translate(0.25rem);
-          transform: translate(0.25rem);
-}
-
 .icon-square {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -228,26 +186,6 @@ i {
   height: 3rem;
   font-size: 1.5rem;
   border-radius: .75rem;
-}
-
-.rounded-4 {
-  border-radius: .5rem;
-}
-
-.rounded-5 {
-  border-radius: 1rem;
-}
-
-.text-shadow-1 {
-  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
-}
-
-.text-shadow-2 {
-  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
-}
-
-.text-shadow-3 {
-  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
 }
 
 .aktualitet {
@@ -844,8 +782,8 @@ button div {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/land20.png");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/land20.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/mainPic.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/mainPic.jpg");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
