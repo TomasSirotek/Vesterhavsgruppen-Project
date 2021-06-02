@@ -2029,4 +2029,13 @@ section.ok {
 .på {
   margin-left: 32%;
 }
+
+.finish {
+  padding: 6%;
+  background-color: #f8f6f6;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  height: auto;
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
