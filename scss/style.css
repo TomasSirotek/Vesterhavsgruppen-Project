@@ -1062,7 +1062,12 @@ button div {
     font-size: 0.875em;
   }
   .uniformos {
-    padding: 10%;
+    margin-top: 7%;
+    max-width: 97%;
+    max-height: 66%;
+  }
+  .uniform {
+    margin-bottom: -40%;
   }
 }
 
@@ -1884,7 +1889,9 @@ section.ok {
     margin-top: 37%;
   }
   .ujo img {
-    right: -17%;
+    right: 1%;
+    width: 38%;
+    top: 46%;
   }
   .på {
     margin-bottom: 3%;
@@ -1924,7 +1931,7 @@ section.ok {
     margin-top: 8%;
   }
   .på {
-    padding-left: 50%;
+    padding-left: 22%;
   }
   .linkos {
     margin-top: 20%;
@@ -2057,6 +2064,12 @@ section.ok {
   }
   .mobile-header {
     font-size: 23px;
+  }
+  .mob {
+    top: -45%;
+  }
+  .mobko {
+    height: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */
