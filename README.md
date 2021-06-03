@@ -74,7 +74,7 @@
 
 ![landing_page_look](https://user-images.githubusercontent.com/72190589/120646718-18705000-c47a-11eb-9a1c-15a65396dcf7.png)
 
-Here's a blank template to get started:
+UX/UI redesigned website:
 **:SIMPLE RATHER MINIMALISTIC**
 
 
@@ -94,7 +94,7 @@ To get a local copy up and running follow thIS simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/TomassSimko/Vesterhavsgruppen-Project
    ```
 ### Desktop 💻
 
