@@ -1,16 +1,9 @@
 .nav-color{
     background-color:$primary;
 }
-
-
 .nav-link{
     border:none;
 }
-
-
-
-
-
 #navigation a{
     
     color:black;
@@ -18,25 +11,13 @@
     &:hover:not(.sign){
       color:$secondary;
     }
-
-   
- 
-
-
 }
 .sign{
     &:hover{
         background-color:$secondary;
         border-radius: 27px;
     }
-
-
-   
-      
-      
 }
-
-
 
 #color{
     color:black;

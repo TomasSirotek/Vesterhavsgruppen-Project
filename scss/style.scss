@@ -497,9 +497,7 @@ position: relative;
   .mr-3{
     font-size: $articles;
   }
-  .container-fluid{
-    width:103%;
-  }
+  
   .block-card{
     width:110%;
   }
@@ -712,4 +710,8 @@ position: relative;
   margin-left:30%;
   margin-top:-55%;
 }
+.container-fluid{
+  width:100%;
+}
+
 }

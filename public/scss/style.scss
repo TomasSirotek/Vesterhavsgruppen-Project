@@ -497,9 +497,7 @@ position: relative;
   .mr-3{
     font-size: $articles;
   }
-  .container-fluid{
-    width:103%;
-  }
+  
   .block-card{
     width:110%;
   }
@@ -509,7 +507,9 @@ position: relative;
     margin-top: 37%;
   }
   .ujo img{
-    right: -17%;
+    right: 1%;
+    width: 38%;
+    top:46%;
   }
   .på{
     margin-bottom: 3%;
@@ -563,7 +563,7 @@ position: relative;
 
 
 .på{
-  padding-left:50%;
+  padding-left:22%;
 }
 
 .linkos{
@@ -652,7 +652,7 @@ position: relative;
 }
 
 .finish{
-  padding: 6%;
+  padding: 4%;
   background-color: $primary;
   border: 1px solid rgb(222, 226, 230);
   border-radius: 0.25rem;
@@ -661,7 +661,7 @@ position: relative;
 }
 .group{
  
-  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/land20.jpg');
+    background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/land20.jpg');
     background-size:cover;
     height:200px;
     padding-top:1.7%;
@@ -700,4 +700,18 @@ position: relative;
 .mobile-header{
   font-size:23px;
 }
+.mob{
+  top: -45%;
+}
+.mobko{
+  height:90%;
+}
+.text-bliv{
+  margin-left:30%;
+  margin-top:-55%;
+}
+.container-fluid{
+  width:100%;
+}
+
 }
