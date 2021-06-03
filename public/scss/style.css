@@ -37,17 +37,6 @@
   color: black;
 }
 
-.navbar-brand {
-  text-decoration: none;
-}
-
-.navbar-brand img {
-  width: 50px;
-  height: 50px;
-  margin: 0;
-  padding: 0;
-}
-
 .custom-toggler.navbar-toggler {
   border-color: #066966;
 }
@@ -782,8 +771,8 @@ button div {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/mainPic.jpg");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/mainPic.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("../assets/main_land.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("../assets/main_land.jpg");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -1744,8 +1733,8 @@ a:hover :not(.cursor) {
 }
 
 .different {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/top-banner.png");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/top-banner.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/banner_af.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/banner_af.png");
   background-size: cover;
   height: 200px;
   padding-top: 1.7%;
@@ -2062,8 +2051,8 @@ section.ok {
 }
 
 .bye {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/land20.png");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/land20.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/main_land.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/main_land.jpg");
   background-size: cover;
   height: 200px;
   padding-top: 1.7%;
