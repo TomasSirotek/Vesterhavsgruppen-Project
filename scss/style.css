@@ -2051,8 +2051,8 @@ section.ok {
 }
 
 .bye {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/land20.png");
-  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/land20.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.616)), to(rgba(4, 9, 30, 0.438))), url("/assets/main_land.jpg");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.616), rgba(4, 9, 30, 0.438)), url("/assets/main_land.jpg");
   background-size: cover;
   height: 200px;
   padding-top: 1.7%;
