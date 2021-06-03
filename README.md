@@ -24,7 +24,7 @@
   
 
   <p align="center">
-    Da blå Spejdere I Esbjerg
+    De blå Spejdere I Esbjerg
     <br />
     <a href="https://github.com/TomassSimko/Vesterhavsgruppen-Project"><strong>Explore the docs »</strong></a>
     <br />
