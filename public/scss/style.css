@@ -185,6 +185,10 @@ i {
   text-align: justify;
 }
 
+#footer, #tel-added {
+  margin-top: -2%;
+}
+
 #footer p, #tel-added p {
   text-align: center;
   margin-top: 2%;
