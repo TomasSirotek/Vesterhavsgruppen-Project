@@ -28,7 +28,7 @@ EASV privacy licence
 ![Screenshot 2021-06-02 at 21 11 40](https://user-images.githubusercontent.com/72190589/120568063-73229100-c413-11eb-9ce0-c7e49aed92b7.png)
 
 -------------------
-:iphone: # Mobile Version 
+:iphone: # Mobile Responsive 
 
 ![Screenshot 2021-06-02 at 21 17 09](https://user-images.githubusercontent.com/72190589/120568103-846b9d80-c413-11eb-82d9-3092988f19e1.png)
 
