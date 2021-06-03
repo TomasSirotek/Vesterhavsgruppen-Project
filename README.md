@@ -26,12 +26,12 @@
   <p align="center">
     Da blå Spejdere I Esbjerg
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TomassSimko/Vesterhavsgruppen-Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     :octocat: <a href="https://vesterhavs-gruppen.web.app/index.html">View Demo</a>
     ·
-    :hammer:<a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    :hammer:<a href="https://github.com/TomassSimko/Vesterhavsgruppen-Project/issues">Report Bug</a>
     
     
   </p>
@@ -117,7 +117,7 @@ thank you for your attention!
 TTT :black_nib:
 ### Contact
 
-Tomas Simko - [@twitter](https://twitter.com/TomasSimko_) - simko.t@email.cz - [@LinkedIn](https://twitter.com/TomasSimko_)
+Tomas Simko - [@twitter](https://twitter.com/TomasSimko_) - simko.t@email.cz - [@linkedIn](https://www.linkedin.com/in/tomas-simko/)
 
 Project Link: [https://github.com/TomassSimko/Vesterhavsgruppen-Project](https://github.com/TomassSimko/Vesterhavsgruppen-Project)
 
