@@ -38,5 +38,5 @@ EASV privacy licence
 
 -------------------
 
-![Screenshot 2021-06-03 at 02 42 47](https://user-images.githubusercontent.com/72190589/120569028-69019200-c415-11eb-8939-f6ef6e5d6a0a.png)
+![Lighhouse_report_after_resize](https://user-images.githubusercontent.com/72190589/120639411-9845ec80-c471-11eb-91cc-b50b8b2bb4fc.png)
 
