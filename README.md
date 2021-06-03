@@ -1,39 +1,129 @@
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 # Vesterhavsgruppen-Project
 :school_satchel: Exam | 2nd Semestr | De Blå Spejdere i Esbjerg
 
-  Simple rather Minimalistic 
-  -------------------
-  Made by [ Charlies's Angels ]
+[![Contributors][contributors-shield]][contributors-url]
 
-All made with help of 
-Bootstrap framework and modern SASS.
 
--------------------
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/TomassSimko/Vesterhavsgruppen-Project">
+    <img src="https://user-images.githubusercontent.com/72190589/120681415-a3157700-c49b-11eb-92d6-2476feb5eff1.png" alt="Logo" width="100" height="100">
+  </a>
 
-:octocat: Final website - 
+  <h3 align="center">Vesterhavsgruppen 2021</h3>
+  
 
--------------------
+  <p align="center">
+    Da blå Spejdere I Esbjerg
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    :octocat: <a href="https://vesterhavs-gruppen.web.app/index.html">View Demo</a>
+    ·
+    :hammer:<a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    
+    
+  </p>
+</p>
 
-:lock: Exam Privacy License
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#desktop">Desktop</a></li>
+    <li><a href="#mobile">Mobile</a></li>
+    <li><a href="#lighthouse">Lighthouse</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![landing_page_look](https://user-images.githubusercontent.com/72190589/120646718-18705000-c47a-11eb-9a1c-15a65396dcf7.png)
+
+Here's a blank template to get started:
+**:SIMPLE RATHER MINIMALISTIC**
+
+
+
+### Built With
+
+* [BOOTSTRAP](https://getbootstrap.com)
+* [SASS](https://sass-lang.com)
+* [JS](https://www.google.com/search?client=safari&rls=en&q=javascript&ie=UTF-8&oe=UTF-8)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow thIS simple steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+### Desktop 💻
+
+![How it looks](https://user-images.githubusercontent.com/72190589/120690428-7d8d6b00-c4a5-11eb-96f3-f711889d62f0.png)
+
+### Mobile :iphone:
+
+![Screenshot 2021-06-03 at 19 48 52](https://user-images.githubusercontent.com/72190589/120690203-343d1b80-c4a5-11eb-9403-818483e0a369.png)
+
+
+### Ligthouse :hammer:
+
+![Screenshot 2021-06-03 at 18 06 48](https://user-images.githubusercontent.com/72190589/120678066-04d3e200-c498-11eb-866f-9f426e46faac.png)
+
+### Licence 📎
 
 Our 2021 Exam project posted here on GitHub.
 Hope you will like it!
 thank you for your attention!
 TTT :black_nib:
+### Contact
 
--------------------
-:computer: Desktop
--------------------
-![landing_page_look](https://user-images.githubusercontent.com/72190589/120646718-18705000-c47a-11eb-9a1c-15a65396dcf7.png)
+Tomas Simko - [@twitter](https://twitter.com/TomasSimko_) - simko.t@email.cz - [@LinkedIn](https://twitter.com/TomasSimko_)
+
+Project Link: [https://github.com/TomassSimko/Vesterhavsgruppen-Project](https://github.com/TomassSimko/Vesterhavsgruppen-Project)
 
 
-![How it looks](https://user-images.githubusercontent.com/72190589/120646733-1a3a1380-c47a-11eb-9f44-b529cafa3857.png)
--------------------
-:iphone: Mobile Responsive
--------------------
-![mobile_version_look](https://user-images.githubusercontent.com/72190589/120646748-1dcd9a80-c47a-11eb-92eb-14887ffda2b9.png)
--------------------
-:hammer: LightHouse Report results
-![Lighhouse_report_after_resize](https://user-images.githubusercontent.com/72190589/120646781-26be6c00-c47a-11eb-9bff-86aa8a29539f.png)
--------------------
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/TomassSimko/Vesterhavsgruppen-Project/graphs/contributors
