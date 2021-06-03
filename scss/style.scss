@@ -25,23 +25,7 @@
 
 
 
-.container-fluid{
-  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('../assets/top-banner.png');
-    background-size:cover;
-    height:400px;
-    padding-top:1.7%;
-    width:100%;
-    color:white;
-    padding-top: 200px;
-    padding-bottom: 230px;
-    width: 100% ;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-  
-    
-}
+
 
 // 1. Typography
 // ==========================================================================
@@ -677,7 +661,7 @@ position: relative;
 }
 .group{
  
-  background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('../assets/land20.jpg');
+    background-image:linear-gradient(rgba(4, 9, 30, 0.616),rgba(4, 9, 30, 0.438)),url('/assets/land20.jpg');
     background-size:cover;
     height:200px;
     padding-top:1.7%;
